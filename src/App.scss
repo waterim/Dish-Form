@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  // font-family: 'Encode Sans Expanded', sans-serif;
+  font-family: 'Raleway', sans-serif;
+}
+
+.App{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: 30%;
+
+    @media only screen and (min-width: 920px) {
+      background-size: 85%;
+  }
+
+}

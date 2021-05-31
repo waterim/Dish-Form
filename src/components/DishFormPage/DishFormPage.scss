@@ -1,0 +1,23 @@
+.dishFormContainer{
+    max-width: 900px;
+    width: 90vw;
+    // height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+    background: rgba(#f7f7f7, 0.9);
+    box-shadow: -2px 2px 9px 0px rgba(26, 26, 26, 0.2);
+    border-radius: 10px;
+
+    .dishHeader{
+        align-self: flex-start;
+        color: #6b62ff;
+        margin-bottom: 1.3rem;
+    }
+
+    .dishFormError{
+        color: red;
+    }
+}
